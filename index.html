@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Datang</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    a.button {
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      padding: 14px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    a.button:hover {
+      background: linear-gradient(to right, #5a67d8, #6b46c1);
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Aulia Chantika Putri</h1>
+    <p>Selamat datang di halaman profil saya!</p>
+    <a href="biodata.html" class="button">Klik untuk lebih mngenal saya</a>
+  </div>
+</body>
+</html>
